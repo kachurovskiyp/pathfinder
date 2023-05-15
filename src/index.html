@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pathfinder</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@700&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="main-wrapper">
+  <header class="header">
+    <nav class="header__menu">
+      <ul class="header__menu-list">
+        <li class="header__menu-item">
+          <a href="#about" class="header__menu-link">about</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#finder" class="header__menu-link">finder</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="header__title-wrapper">
+      <h1 class="header__title h1">Pathfinder</h1>
+      <p class="header__title-description desription">for travellers</p>
+    </div>
+  </header>
+
+  <div class="page-wrapper" data-page="about">
+    <section class="plan section" data-aos="fade-up">
+      <img src="./images/1.jpg" alt="image">
+      <div class="section__description-wrapper">
+        <h3>plan your journeys</h3>
+        <p>Pick attractions and book hotels</p>
+      </div>
+    </section>
+
+    <section class="boredom section" data-aos="fade-up">
+      <img src="./images/2.jpg" alt="image">
+      <div class="section__description-wrapper">
+        <h3>minimalize boredom</h3>
+        <p>Pick routes that are short and attractive</p>
+      </div>
+    </section>
+  </div>
+
+  <div class="page-wrapper hidden" data-page="finder">
+    <section class="finder" data-aos="fade-up">
+      <h3 class="finer__sreen-info">This app for computer screen only </h3>
+      <h2 class="finder__title h2">Draw routes</h2>
+      <span class="alert hidden"></span>
+      <div class="finder-wrapper"></div>
+      <button class="finder__button" type="button">finish drawing</button>
+    </section>
+  </div>
+
+
+
+  <footer class="footer">
+    <p>All rights reserved</p>
+  </footer>
+</div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/app.js" type="module"></script>
+</body>
+
+</html>

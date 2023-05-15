@@ -1,0 +1,24 @@
+$font-main: 'Source Code Pro', monospace;
+$font-second: 'Source Sans Pro', sans-serif;
+
+$font-bold: 700;
+$font-semiBold: 600;
+
+$size-hight: 100px;
+$size-big: 60px;
+$size-middle: 40px;
+$size-small: 20px;
+
+
+.h1 {
+  @include fontMain($size-hight, $font-bold, uppercase);
+}
+
+.h2 {
+  @include fontMain($size-big, $font-semiBold, uppercase);
+  color: $color-light;
+}
+
+.desription {
+  @include fontMain(40px, $font-semiBold);
+}

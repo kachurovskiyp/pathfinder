@@ -1,0 +1,27 @@
+/* Variables */
+
+$color-dark: #131313;
+$color-light: #ffffff;
+$color-red: #e74c3c;
+$color-red-dark: #c24e00;
+$color-green: #2ecc71;
+
+/* Mixins */
+
+@mixin fontMain($size, $weight, $transform: none) {
+  font-family: $font-main;
+  font-size: $size;
+  font-weight: $font-bold;
+  text-transform: $transform;
+}
+
+@mixin fontSecond($size, $weight, $transform: none) {
+  font-family: $font-second;
+  font-size: $size;
+  font-weight: $font-bold;
+  text-transform: $transform;
+}
+
+.hidden {
+  display: none;
+}

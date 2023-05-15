@@ -1,0 +1,12 @@
+.footer {
+  min-height: 12px;
+  color: $color-light;
+  text-align: center;
+
+  p {
+    @include fontSecond($size-small, $font-semiBold);
+    letter-spacing: 4px;
+    line-height: 85px;
+    margin: 0;
+  }
+}
